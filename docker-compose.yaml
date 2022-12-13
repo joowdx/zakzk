@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  zakzk:
+    build:
+      dockerfile: Dockerfile
+    volumes:
+      - '.:/usr/src/app'
+    ports:
+      - 8000:8000
