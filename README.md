@@ -1,5 +1,5 @@
 # zakzk
-Zkteco api using [`pzyk`](https://github.com/fananimi/pyzk).
+Zkteco api using [`pzyk`](https://github.com/fananimi/pyzk) and [`django-rest-framework`](https://github.com/encode/django-rest-framework).
 
 ## Setup
 #### Python3
