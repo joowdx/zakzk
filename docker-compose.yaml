@@ -10,5 +10,5 @@ services:
     restart: unless-stopped
     volumes:
       - '.:/usr/src/app'
-    ports:
+    expose:
       - 3001:3001
