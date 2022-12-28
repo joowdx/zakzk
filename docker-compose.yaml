@@ -10,5 +10,6 @@ services:
     restart: unless-stopped
     volumes:
       - '.:/usr/src/app'
+    network_mode: host
     expose:
       - 3001:3001
