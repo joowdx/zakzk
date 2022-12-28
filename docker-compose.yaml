@@ -4,7 +4,7 @@ services:
   zakzk:
     container_name: zakzk
     build:
-      contect: ./
+      context: ./
       dockerfile: Dockerfile
     image: zakzk:alpha
     restart: unless-stopped
