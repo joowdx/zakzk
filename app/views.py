@@ -10,7 +10,7 @@ def get(request):
     try:
         conn = zk.connect()
         conn.disable_device()
-        attlogs = map(lambda x: {'uid': x.user_id, 'date': x.timestamp, 'state': x.punch}, conn.get_attendance())
+        attlogs = map(lambda x: {'uid': x.user_id, 'time': x.timestamp, 'state': x.punch}, conn.get_attendance())
     finally:
         if conn:
             conn.disconnect()
