@@ -3,6 +3,7 @@ version: '3'
 services:
   zakzk:
     container_name: zakzk
+    restart: unless-stopped
     build:
       dockerfile: Dockerfile
     volumes:
